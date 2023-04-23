@@ -7,6 +7,7 @@ html, body {
     padding: 0;
     font-family: sans-serif;
 }
+
 header {
     background-image: url('obrazky/jaro.jpg');
     background-repeat: no-repeat;
@@ -18,8 +19,34 @@ header {
     text-shadow: 0 0 10px #772155;
 }
 
+nav {
+    background-color: lightcoral;
+    position: sticky;
+    top: 0;
+}
+
+a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.alias a {
+    color: darkblue;
+    padding: 30px;
+}
+
 section {
     padding: 80px 60px;
+}
+
+.right-col {
+    width: 70%;
+}
+
+.left-col {
+    width: 60%;
 }
 
 h1 {
@@ -35,6 +62,7 @@ h2, h3 {
     color: darkcyan ;
     font-size: 30px;
     margin: 0;
+    padding: 30px;
   }
 
 
